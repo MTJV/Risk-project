@@ -40,7 +40,7 @@ def practice():
     which reflect current risk sentiment. It's forward looking, and is gauging how volatile the markets
      will be in the next 30 days, with a higher value implying higher anticipated volatility.  
        As we are using historical data, :blue[realized volatility] is always based on past price movements — 
-    there is no way to know next months :blue[realized volatility] in real time. Here, :blue[realized volatility] is computed
+    there is no way to know next months :blue[realized volatility] in real time. Here, I've computed :blue[realized volatility]
      over a one-month forward window and annualized to match the VIX scale.""")
 
 
@@ -51,7 +51,7 @@ def practice():
               I find this relationship particularly interesting, as it showcases how accurate and trusted these forecasts are. Of course 
             the :red[IV] does not only showcase the inaccuracy of the forecasting. 
             This gap highlights how markets consistently assign a premium to uncertainty. :red[Implied volatility] isn’t just a forecast
-             — it also reflects the price investors are willing to pay for protection against downside risk""")
+             — it also reflects the price investors are willing to pay for protection against downside risk.""")
 
 practice()
 
