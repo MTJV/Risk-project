@@ -1,10 +1,3 @@
-from cgitb import small
-from fileinput import close
-from ipaddress import collapse_addresses
-
-from PIL.ImageChops import overlay
-from matplotlib.pyplot import subplots, xlabel, ylabel, title
-
 
 def practice():
     #Data manipulation
