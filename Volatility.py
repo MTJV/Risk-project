@@ -52,6 +52,8 @@ def practice():
             the :red[IV] does not only showcase the inaccuracy of the forecasting. 
             This gap highlights how markets consistently assign a premium to uncertainty. :red[Implied volatility] isn’t just a forecast
              — it also reflects the price investors are willing to pay for protection against downside risk.""")
+    
+    st.text('Analysis by Mikael Valtonen, 2025')
 
 practice()
 
