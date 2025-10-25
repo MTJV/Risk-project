@@ -36,11 +36,11 @@ def practice():
     st.title('Risk premium')
     st.subheader('How is uncertainty priced in markets?')
     st.markdown("""In capital markets, risk is constantly being priced and analyzed by the :red[implied volatility]. 
-    The factor is tracked by the ticker :green[^VIX] and it's constantly updated based on underlying options pricing,
+    The factor is tracked by the ticker :green[^VIX] and it's constantly updated based on underlying SP500 options pricing,
     which reflect current risk sentiment. It's forward looking, and is gauging how volatile the markets
      will be in the next 30 days, with a higher value implying higher anticipated volatility.  
        As we are using historical data, :blue[realized volatility] is always based on past price movements — 
-    there is no way to know next months :blue[realized volatility] in real time. Here, I've computed :blue[realized volatility]
+    there is no way to know next months :blue[realized volatility] in real time. Here, I've computed :blue[realized volatility] from the SP500
      over a one-month forward window and annualized to match the VIX scale.""")
 
 
